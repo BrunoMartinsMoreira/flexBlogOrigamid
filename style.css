@@ -281,6 +281,15 @@ img{
 }
 /*############ RESPONSIVO #############*/
 @media (max-width:800px){
+   .menu{
+      max-width: 90vw;
+   }
+   .sobre{
+      max-width: 90vw;
+   }
+   .produtos{
+      max-width: 90vw;
+   }
    .produtos-container{
       flex-direction: column;
    }
@@ -297,5 +306,8 @@ img{
    }
    .preco-item:nth-child(2){
       order: -1;
+   }
+   .qualidade{
+      max-width: 90vw;
    }
 }
